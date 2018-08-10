@@ -1,0 +1,16 @@
+target/
+
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### Vert.x ###
+.vertx/
+
+### Gradle ###
+.gradle/
+build/
+out/
