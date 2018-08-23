@@ -24,6 +24,18 @@ subprojects {
         mavenCentral()
     }
 
+
+    ext {
+        springCloudVersion = 'Finchley.SR1'
+    }
+
+
+    dependencyManagement {
+        imports {
+            mavenBom "org.springframework.cloud:spring-cloud-dependencies:${springCloudVersion}"
+        }
+    }
+
     dependencies {
         testCompile('org.springframework.boot:spring-boot-starter-test')
     }
